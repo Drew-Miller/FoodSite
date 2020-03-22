@@ -14,8 +14,8 @@ export class LoremIpsomService extends HttpBaseService<any> {
 
     public Get(words: number): Observable<string> {
         return super.GetByParam(words.toString())
-            .pipe(map(value as string)=> {
+            .pipe(map((value: string) => {
                 return value.replace(/\b\w/g, l => l.toUpperCase());
-        });
+        }));
     }
 }

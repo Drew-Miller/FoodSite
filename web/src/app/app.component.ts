@@ -2,11 +2,9 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {
   ApiService,
-  Food, FoodService, LoremIpsomService,
+  Food, FoodService,
+  LoremIpsomService,
 } from 'src/shared/shared.bundle';
-import {
-  Food
-} from 'src/shared.shared.bundle';
 
 @Component({
   selector: 'app-root',
@@ -15,10 +13,10 @@ import {
 })
 export class AppComponent {
   title = 'web';
-  endPoint: string;
-  api: string;
-  food: Food;
-  loremIpsom: any;
+  private endPoint: string;
+  private api: string;
+  private food: Food;
+  private loremIpsom: string;
 
   public constructor(
     private apiService: ApiService,
@@ -34,7 +32,7 @@ export class AppComponent {
         this.food = value;
       }
     });
-    this.loremService.Get(5).subscribe({
+    this.loremService.Get(800).subscribe({
       next: (value) => {
         this.loremIpsom = value;
       }
