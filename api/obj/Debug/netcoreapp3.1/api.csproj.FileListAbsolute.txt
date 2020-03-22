@@ -1,0 +1,17 @@
+/Users/drewmiller/Software Projects/AzureAngular/api/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/drewmiller/Software Projects/AzureAngular/api/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/drewmiller/Software Projects/AzureAngular/api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/drewmiller/Software Projects/AzureAngular/api/bin/Debug/netcoreapp3.1/api.deps.json
+/Users/drewmiller/Software Projects/AzureAngular/api/bin/Debug/netcoreapp3.1/api.runtimeconfig.json
+/Users/drewmiller/Software Projects/AzureAngular/api/bin/Debug/netcoreapp3.1/api.runtimeconfig.dev.json
+/Users/drewmiller/Software Projects/AzureAngular/api/bin/Debug/netcoreapp3.1/api.dll
+/Users/drewmiller/Software Projects/AzureAngular/api/bin/Debug/netcoreapp3.1/api.pdb
+/Users/drewmiller/Software Projects/AzureAngular/api/obj/Debug/netcoreapp3.1/api.csprojAssemblyReference.cache
+/Users/drewmiller/Software Projects/AzureAngular/api/obj/Debug/netcoreapp3.1/api.MvcApplicationPartsAssemblyInfo.cache
+/Users/drewmiller/Software Projects/AzureAngular/api/obj/Debug/netcoreapp3.1/staticwebassets/api.StaticWebAssets.Manifest.cache
+/Users/drewmiller/Software Projects/AzureAngular/api/obj/Debug/netcoreapp3.1/staticwebassets/api.StaticWebAssets.xml
+/Users/drewmiller/Software Projects/AzureAngular/api/obj/Debug/netcoreapp3.1/api.dll
+/Users/drewmiller/Software Projects/AzureAngular/api/obj/Debug/netcoreapp3.1/api.pdb
+/Users/drewmiller/Software Projects/AzureAngular/api/bin/Debug/netcoreapp3.1/data.dll
+/Users/drewmiller/Software Projects/AzureAngular/api/bin/Debug/netcoreapp3.1/data.pdb
+/Users/drewmiller/Software Projects/AzureAngular/api/obj/Debug/netcoreapp3.1/api.csproj.CopyComplete

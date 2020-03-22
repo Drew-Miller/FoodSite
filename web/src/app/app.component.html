@@ -1,0 +1,10 @@
+<div id="wrapper">
+    <header app-header class="ag k1 aj"></header>
+    <main>
+        <h2 *ngIf="Api">{{ Api }}</h2>
+        <h2 *ngIf="Food">{{ Food.name }}</h2>
+        <h2 *ngIf="loremIpsom">{{ loremIpsom }}</h2>
+        <router-outlet></router-outlet>
+    </main>
+    <footer app-footer class="cz d0 cy"></footer>
+</div>

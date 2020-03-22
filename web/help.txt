@@ -1,0 +1,4 @@
+Getting started:
+shift + cmd + p: open the vscode command palette
+select: Azure App Service Deploy
+redeploy new, or to previous deployment
