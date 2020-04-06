@@ -184,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/drewmiller/Software Projects/AzureAngular/data/data.csproj",
+      "projectUniqueName": "/Users/drewmiller/Software Projects/FoodSite/data/data.csproj",
       "projectName": "data",
-      "projectPath": "/Users/drewmiller/Software Projects/AzureAngular/data/data.csproj",
+      "projectPath": "/Users/drewmiller/Software Projects/FoodSite/data/data.csproj",
       "packagesPath": "/Users/drewmiller/.nuget/packages/",
-      "outputPath": "/Users/drewmiller/Software Projects/AzureAngular/data/obj/",
+      "outputPath": "/Users/drewmiller/Software Projects/FoodSite/data/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

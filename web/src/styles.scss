@@ -1,6 +1,11 @@
 @import 'assets/styles/_hex.scss';
 
+$accent: rgb(62,193,103);
 $header-height: 80px;
+
+* {
+    font-family: sans-serif;
+}
 
 body {
     margin: 0px;
@@ -32,4 +37,12 @@ footer {
     display: block;
     position: relative;
     top: $header-height;
+}
+
+.accent {
+    color: $accent;
+}
+
+.ml-1 {
+    margin-left: 8px;
 }

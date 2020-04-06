@@ -6,3 +6,11 @@
 /Users/drewmiller/Software Projects/AzureAngular/data/obj/Debug/netstandard2.0/data.AssemblyInfo.cs
 /Users/drewmiller/Software Projects/AzureAngular/data/obj/Debug/netstandard2.0/data.dll
 /Users/drewmiller/Software Projects/AzureAngular/data/obj/Debug/netstandard2.0/data.pdb
+/Users/drewmiller/Software Projects/FoodSite/data/bin/Debug/netstandard2.0/data.deps.json
+/Users/drewmiller/Software Projects/FoodSite/data/bin/Debug/netstandard2.0/data.dll
+/Users/drewmiller/Software Projects/FoodSite/data/bin/Debug/netstandard2.0/data.pdb
+/Users/drewmiller/Software Projects/FoodSite/data/obj/Debug/netstandard2.0/data.csprojAssemblyReference.cache
+/Users/drewmiller/Software Projects/FoodSite/data/obj/Debug/netstandard2.0/data.AssemblyInfoInputs.cache
+/Users/drewmiller/Software Projects/FoodSite/data/obj/Debug/netstandard2.0/data.AssemblyInfo.cs
+/Users/drewmiller/Software Projects/FoodSite/data/obj/Debug/netstandard2.0/data.dll
+/Users/drewmiller/Software Projects/FoodSite/data/obj/Debug/netstandard2.0/data.pdb

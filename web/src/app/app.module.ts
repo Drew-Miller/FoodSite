@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 
 import { LayoutModule } from 'src/layout/layout.module';
 import { HomeModule } from 'src/home/home.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeModule } from 'src/home/home.module';
     HttpClientModule,
     SharedModule,
     LayoutModule,
-    HomeModule
+    HomeModule,
+    BrowserAnimationsModule
   ],
   providers: [ ],
   bootstrap: [AppComponent]

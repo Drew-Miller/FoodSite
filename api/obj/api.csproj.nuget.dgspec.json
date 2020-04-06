@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/drewmiller/Software Projects/AzureAngular/api/api.csproj": {}
+    "/Users/drewmiller/Software Projects/FoodSite/api/api.csproj": {}
   },
   "projects": {
-    "/Users/drewmiller/Software Projects/AzureAngular/api/api.csproj": {
+    "/Users/drewmiller/Software Projects/FoodSite/api/api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/drewmiller/Software Projects/AzureAngular/api/api.csproj",
+        "projectUniqueName": "/Users/drewmiller/Software Projects/FoodSite/api/api.csproj",
         "projectName": "api",
-        "projectPath": "/Users/drewmiller/Software Projects/AzureAngular/api/api.csproj",
+        "projectPath": "/Users/drewmiller/Software Projects/FoodSite/api/api.csproj",
         "packagesPath": "/Users/drewmiller/.nuget/packages/",
-        "outputPath": "/Users/drewmiller/Software Projects/AzureAngular/api/obj/",
+        "outputPath": "/Users/drewmiller/Software Projects/FoodSite/api/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/drewmiller/Software Projects/AzureAngular/data/data.csproj": {
-                "projectPath": "/Users/drewmiller/Software Projects/AzureAngular/data/data.csproj"
+              "/Users/drewmiller/Software Projects/FoodSite/data/data.csproj": {
+                "projectPath": "/Users/drewmiller/Software Projects/FoodSite/data/data.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "/Users/drewmiller/Software Projects/AzureAngular/data/data.csproj": {
+    "/Users/drewmiller/Software Projects/FoodSite/data/data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/drewmiller/Software Projects/AzureAngular/data/data.csproj",
+        "projectUniqueName": "/Users/drewmiller/Software Projects/FoodSite/data/data.csproj",
         "projectName": "data",
-        "projectPath": "/Users/drewmiller/Software Projects/AzureAngular/data/data.csproj",
+        "projectPath": "/Users/drewmiller/Software Projects/FoodSite/data/data.csproj",
         "packagesPath": "/Users/drewmiller/.nuget/packages/",
-        "outputPath": "/Users/drewmiller/Software Projects/AzureAngular/data/obj/",
+        "outputPath": "/Users/drewmiller/Software Projects/FoodSite/data/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
