@@ -1,20 +1,13 @@
-@import 'assets/styles/_hex.scss';
-
-$accent: rgb(62,193,103);
-$header-height: 80px;
-
-* {
-    font-family: sans-serif;
-}
+@import 'src/assets/styles/_variables.scss';
+@import 'src/assets/styles/_mixins.scss';
 
 body {
+    font-family: sans-serif;
+    color: $style-color-deep;
+    background-color: $style-color-bright;
     margin: 0px;
-}
-
-#wrapper {
-    height: 100%;
-    min-width: 100%;
-    position: relative;
+    height: 100vh;
+    min-width: 100vw;
 }
 
 header {
@@ -25,24 +18,55 @@ header {
     left: 0px;
     width: 100%;
     height: $header-height;
+    background-color: $style-color-bright;
 }
 
 main {
     display: block;
     position: relative;
     top: $header-height;
+    height: 100vh;
 }
 
 footer {
     display: block;
     position: relative;
     top: $header-height;
+    margin-top: $header-height;
+    color: $style-color-bright;
+    background-color: $style-color-deep;
 }
 
-.accent {
-    color: $accent;
+a {
+    text-decoration: none;
 }
 
-.ml-1 {
-    margin-left: 8px;
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    margin: $item-space-l 0;
+}
+
+.padding-ends {
+    padding: 72px 0px 88px;
+}
+
+.padding-sides {
+    padding: 0px 80px;
+}
+
+.margin-bottom-med {
+    margin-bottom: 24px;
+}
+
+.text-logo-1 {
+    font-weight: normal;
+}
+
+.text-logo-2 {
+    color: $style-color-accent;
 }

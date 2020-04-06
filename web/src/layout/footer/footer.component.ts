@@ -10,10 +10,12 @@ import { LoremIpsomService } from 'src/shared/shared.bundle';
 export class FooterComponent {
   private index = 0;
   private text: string;
+  private itemCount = 5;
+  public Items = Array(this.itemCount).fill(true).map((x, i) => i);
   public Loaded = false;
   public Now: Date = new Date();
 
-  public constructor(private loremService: LoremIpsomService) { 
+  public constructor(private loremService: LoremIpsomService) {
     this.loremService.Get(1000).subscribe({
       next: (value) => {
         this.text = value;

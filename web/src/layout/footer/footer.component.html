@@ -1,21 +1,24 @@
-<div class="ak al am aj an">
-    <div *ngIf="Loaded" class="ao">
-        <div class="a0 d0 d1 d2 d3">
-            <h1><span style="font-weight: normal; color: white;">Food </span><span class="accent">Website</span></h1>
+<div class="padding-ends">
+    <div class="padding-sides">
+        <div *ngIf="Loaded" class="footer-container">
+            <div class="footer-content-big padding-ends">
+                <h1><span style="text-logo-1">Food </span><span class="text-logo-2">Website</span></h1>
+            </div>
+            <div class="footer-content-small">
+                <a class="footer-item item-strong">{{ GetText(3) }}</a>
+                <a *ngFor="let item of Items"class="footer-item">{{ GetText(3) }}</a>
+            </div>
+            <div class="footer-content-small">
+                <a class="footer-item item-strong">{{ GetText(3) }}</a>
+                <a *ngFor="let item of Items"class="footer-item">{{ GetText(3) }}</a>
+            </div>
         </div>
-        <div class="a0 bl d1">
-            <div class="b8 b9 ba d5 d8">{{ GetText(3) }}</div>
-            <div class="b8 b9 ba d5 d8">{{ GetText(3) }}</div>
-            <div class="b8 b9 ba d5 d8">{{ GetText(3) }}</div>
-            <div class="b8 b9 ba d5 d8">{{ GetText(3) }}</div>
+        <hr />
+        <div class="footer-container">
+            <div class="footer-content-big">
+                <div class="c2 de d8 d5"> &copy; {{ Now | date: 'yyyy' }} - Drew Miller </div>
+            </div>
+            <div class="footer-content-big"></div>
         </div>
-        <div class="a0 bl d1"></div>
-    </div>
-    <hr class="db av dc dd" />
-    <div class="ao">
-        <div class="a0 d0 d1 d2 d3">
-            <div class="c2 de d8 d5"> &copy; {{ Now | date: 'yyyy' }} - Drew Miller </div>
-        </div>
-        <div class="a0 d0 d1 d2 d3"></div>
     </div>
 </div>

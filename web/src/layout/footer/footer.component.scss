@@ -1,0 +1,30 @@
+@import 'src/assets/styles/_variables.scss';
+@import 'src/assets/styles/_mixins.scss';
+
+hr {
+    background-color: $style-color-light;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-content-big {
+    flex: 2;
+}
+
+.footer-content-small {
+    flex: 1
+}
+
+.footer-item {
+    margin-bottom: $item-space-s;
+    line-height: $line-height-m;
+    display: block;
+}
+
+.item-strong {
+    font-weight: $font-weight-strong;
+    margin-bottom: $item-space-m;
+}

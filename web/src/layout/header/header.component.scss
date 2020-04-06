@@ -1,0 +1,21 @@
+@import 'src/assets/styles/_variables.scss';
+@import 'src/assets/styles/_mixins.scss';
+
+.header-content {
+    height: $header-height;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgb(226, 226, 226) 0px -2px 0px inset;
+}
+
+.header-items {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    * {
+        margin-left: $item-space-xs;
+    }
+}
