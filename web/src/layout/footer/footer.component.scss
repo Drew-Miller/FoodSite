@@ -5,9 +5,24 @@ hr {
     background-color: $style-color-light;
 }
 
-.footer-container {
+h1 {
+    margin: 0;
+}
+
+i {
+    font-size: $font-size-xl;
+    margin-right: $item-space-m;
+}
+
+.footer-row-container {
     display: flex;
     flex-direction: row;
+}
+
+.footer-col-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer-content-big {

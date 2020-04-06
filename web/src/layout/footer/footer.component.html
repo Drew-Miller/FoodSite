@@ -1,8 +1,12 @@
 <div class="padding-ends">
     <div class="padding-sides">
-        <div *ngIf="Loaded" class="footer-container">
-            <div class="footer-content-big padding-ends">
+        <div *ngIf="Loaded" class="footer-row-container">
+            <div class="footer-content-big footer-col-container">
                 <h1><span style="text-logo-1">Food </span><span class="text-logo-2">Website</span></h1>
+                <div class="footer-container">
+                    <i class="fab fa-app-store-ios"></i>
+                    <i class="fab fa-google-play"></i>
+                </div>
             </div>
             <div class="footer-content-small">
                 <a class="footer-item item-strong">{{ GetText(3) }}</a>
@@ -14,7 +18,7 @@
             </div>
         </div>
         <hr />
-        <div class="footer-container">
+        <div class="footer-row-container">
             <div class="footer-content-big">
                 <div class="c2 de d8 d5"> &copy; {{ Now | date: 'yyyy' }} - Drew Miller </div>
             </div>
